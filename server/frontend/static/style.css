@@ -133,3 +133,71 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact-card {
+    max-width: 80%;
+    margin: 40px auto;
+    background: var(--card-bg);
+    border-radius: 22px;
+    padding: 26px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    border: 1px solid rgba(0,0,0,0.04);
+}
+.contact-body {
+    display: flex;
+    gap: 28px;
+    align-items: stretch;
+    padding: 18px;
+}
+.panel {
+    background: transparent;
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+.panel-inner {
+    width: 95%;
+    height: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-icon {
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+}
+.divider-vertical {
+    width: 3px;
+    background: #333;
+    align-self: stretch;
+    border-radius: 2px;
+    margin: 0;
+    flex: 0 0 3px;
+    opacity: 0.85;
+}
+.contact-list {
+    width: 100%;
+    padding: 10px 18px;
+    color: #0b4980;
+    line-height: 1.6;
+}
+.contact-list h5{
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #0b4b7a;
+}
+.contact-list p {
+    margin: 0 0 12px 0;
+    color: #1b3356;
+    font-size: 0.98rem;
+}
+.contact-list small {
+    color: var(--muted);
+}

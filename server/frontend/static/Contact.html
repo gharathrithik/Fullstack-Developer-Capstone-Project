@@ -1,7 +1,18 @@
 <html>
 <head>
+    <title>Contact</title>
     <link rel='stylesheet' href='/static/style.css'>
     <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <style>
+      .banner {
+        display: block;
+        margin: 0 auto 18px;
+        max-width: 50%;
+        height: auto;
+        border-radius: 6px;
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,0.02);
+      }
+    </style>
 </head>
 <div>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
@@ -16,26 +27,45 @@
                     <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+                    <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+                    <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
                 </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div style="display: flex;flex-direction: column;">
-        <div class="card" style="width: 50%;margin-top: 50px;align-self: center;">
-            <img src="static/cars.png" class="card-img-top" alt="...">
-        </div>
-        <div style="display: flex;flex-direction: row; margin:auto">
-            <div class="card_contact" style="width: 50%;">
-              <img class="card-img-top" src="/static/customer_care_icon.png" alt="Card image">
+    <div class="contact-card">
+
+        <img src="/static/cars.jpg" alt="Dealership banner" class="banner">
+        <hr style="border:none;border-top:1px solid rgba(0,0,0,0.08);margin:12px 0 18px;">
+        <div class="contact-body">
+          <div class="panel">
+            <div class="panel-inner">
+              <img src="/static/customer_care_icon.png" alt="Support icon" class="contact-icon">
             </div>
+          </div>
+          <div class="divider-vertical" aria-hidden="true"></div>   
+          <div class="panel">
+            <div class="panel-inner" style="align-items:flex-start; justify-content:flex-start;">
+              <div class="contact-list">
+                <h5>Contact Customer Service</h5>
+                <p>support@bestcars.com</p>
+                <h5>Contact our National Advertising team</h5>
+                <p>NationalSales@bestcars.com</p>
+                <h5>Contact our Public Relations team</h5>
+                <p>PR@bestcars.com</p>
+                <h5>Contact the bestcars.com offices</h5>
+                <p>312-611-1111</p>
+                <h5>Become a bestcars.com car dealer</h5>
+                <p>Visit <small>growwithbestcars.com</small></p>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
 </div>
 
