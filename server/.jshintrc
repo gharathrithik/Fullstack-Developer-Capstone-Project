@@ -1,0 +1,14 @@
+{
+  "esversion": 6,
+  "node": true,
+  "browser": false,
+  "undef": true,
+  "unused": true,
+  "curly": true,
+  "strict": false,
+  "eqeqeq": true,
+  "globals": {
+    "module": true,
+    "require": true
+  }
+}
