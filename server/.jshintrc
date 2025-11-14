@@ -9,6 +9,8 @@
   "eqeqeq": true,
   "globals": {
     "module": true,
-    "require": true
+    "require": true,
+    "req": true,
+    "res": true
   }
 }
