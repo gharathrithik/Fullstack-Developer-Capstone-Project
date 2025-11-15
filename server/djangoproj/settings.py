@@ -41,7 +41,7 @@ REST_FRAMEWORK = {
 # Application definition
 
 INSTALLED_APPS = [
-    "djangoapp.apps.DjangoappConfig",
+    "djangoapp",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
